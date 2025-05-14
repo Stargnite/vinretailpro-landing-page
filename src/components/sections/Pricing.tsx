@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import FreeTrial from "@/components/sections/FreeTrial"
+
 
 export default function PricingSection() {
   const [billingCycle, setBillingCycle] = useState<"monthly" | "annually">("monthly")
@@ -36,8 +38,8 @@ export default function PricingSection() {
   ]
 
   return (
-    <section className="py-16 px-4 bg-[#f5f3ff]">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 bg-[#f5f3ff]">
+      <div className="max-w-6xl mx-auto mb-[117px]">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-2 poppins-medium">Right Pricing for your Business</h2>
           <p className="text-gray-600 poppins-light">Choose a plan that works for your business.</p>
@@ -105,6 +107,7 @@ export default function PricingSection() {
           ))}
         </div>
       </div>
+      <FreeTrial />
     </section>
   )
 }
