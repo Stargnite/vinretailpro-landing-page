@@ -38,7 +38,7 @@ export default function PricingSection() {
   ]
 
   return (
-    <section className="py-16 bg-[#f5f3ff]">
+    <section className="py-16 px-4 bg-[#f5f3ff]">
       <div className="max-w-6xl mx-auto mb-[117px]">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-2 poppins-medium">Right Pricing for your Business</h2>
