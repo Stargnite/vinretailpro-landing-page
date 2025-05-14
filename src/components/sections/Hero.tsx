@@ -13,18 +13,18 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center">
             {/* Content - Order changes based on screen size */}
             <div className="w-full md:w-1/2 order-2 md:order-1 mt-8 md:mt-0 z-10">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 max-w-[492px]">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 max-w-[492px] poppins-semibold">
                 The all-in-one{" "}
                 <span className="text-purple-600">POS solution</span> to grow
                 your business
               </h1>
-              <p className="text-sm md:text-base mb-6 max-w-lg max-w-[496px]">
+              <p className="text-sm md:text-base mb-6 max-w-lg max-w-[496px] poppins-regular">
                 We understand the everyday struggle of running a successful
                 business. That is why we built a revolutionary management system
                 specifically designed to streamline your operations and
                 skyrocket your profits.
               </p>
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-md">
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-md cursor-pointer poppins-regular">
                 Get Started
               </Button>
             </div>
