@@ -10,7 +10,7 @@ import SuccessStories from "@/components/sections/SuccessStories"
 import About from "@/components/sections/About"
 import TakeControl from "@/components/sections/TakeControl"
 import WeAccept from "@/components/sections/WeAccept"
-// import Footer from "@/components/sections/Footer"
+import Footer from "@/components/sections/Footer"
 // import FreeTrial from "@/components/sections/FreeTrial"
 // import FeatureNumbering from "@/components/feature-numbering"
 
@@ -30,7 +30,7 @@ function App() {
       <About />
       <TakeControl />
       <WeAccept />
-      {/* <Footer /> */}
+      <Footer />
       {/* <FreeTrial /> */}
       {/* <FeatureNumbering /> */}
     </>
