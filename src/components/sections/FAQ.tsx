@@ -1,4 +1,4 @@
-import { useState } from "react"
+// import { useState } from "react"
 import faqImg from "@/assets/images/faqImg.png"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
@@ -8,7 +8,7 @@ interface FAQItem {
 }
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
+  // const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const faqs: FAQItem[] = [
     {
@@ -80,86 +80,3 @@ export default function FAQ() {
     </section>
   )
 }
-
-
-
-
-
-
-
-
-// import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-
-// export default function FAQSection() {
-//   const faqs = [
-//     {
-//       question: "What is VinretailPRO?",
-//       answer:
-//         "VinretailPRO is a comprehensive point-of-sale (POS) solution designed specifically for retail businesses. It offers inventory management, sales processing, customer management, and business analytics in one integrated platform.",
-//     },
-//     {
-//       question: "How much does VinretailPRO cost?",
-//       answer:
-//         "VinretailPRO offers flexible pricing plans starting from ₦5,000 per month for the Basic plan. We also offer Standard (₦8,000/month) and Premium (₦15,000/month) plans with additional features. Annual billing provides a discount of up to 20%.",
-//     },
-//     {
-//       question: "Can I try VinretailPRO before purchasing?",
-//       answer:
-//         "Yes! We offer a free 3-day trial that gives you full access to all features. No credit card is required to start your trial, and you can upgrade to a paid plan at any time.",
-//     },
-//     {
-//       question: "Is my data secure with VinretailPRO?",
-//       answer:
-//         "Absolutely. We implement enterprise-grade security measures including end-to-end encryption, secure user authentication, regular security audits, and compliance with industry standards to ensure your business and customer data remains protected.",
-//     },
-//     {
-//       question: "Can I use VinretailPRO offline?",
-//       answer:
-//         "Yes, VinretailPRO includes an offline mode that allows you to continue processing sales even when your internet connection is down. The system will automatically sync all data once the connection is restored.",
-//     },
-//     {
-//       question: "How does the WooCommerce integration work?",
-//       answer:
-//         "Our WooCommerce integration synchronizes your inventory, orders, and customer data between your physical store and online shop. This ensures consistent stock levels, unified reporting, and seamless order fulfillment across all sales channels.",
-//     },
-//     {
-//       question: "Can I manage multiple store locations?",
-//       answer:
-//         "Yes, our Standard plan supports up to 3 business locations, while our Premium plan offers unlimited locations. All locations are managed from a single dashboard with centralized inventory, reporting, and customer data.",
-//     },
-//     {
-//       question: "What kind of support do you offer?",
-//       answer:
-//         "We provide 24/7 customer support via live chat, email, and phone. Our dedicated support team is always available to assist with any questions or issues you might encounter, ensuring your business runs smoothly.",
-//     },
-//   ]
-
-//   return (
-//     <section className="w-full py-12 md:py-24 bg-gray-50">
-//       <div className="container px-4 md:px-6 mx-auto">
-//         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
-//           <div className="space-y-2">
-//             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Frequently Asked Questions</h2>
-//             <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
-//               Find answers to common questions about VinretailPRO
-//             </p>
-//           </div>
-//         </div>
-//         <div className="mx-auto w-full max-w-3xl">
-//           <Accordion type="single" collapsible className="w-full">
-//             {faqs.map((faq, index) => (
-//               <AccordionItem key={index} value={`item-${index}`}>
-//                 <AccordionTrigger className="text-left font-medium text-lg">{faq.question}</AccordionTrigger>
-//                 <AccordionContent className="text-gray-600">{faq.answer}</AccordionContent>
-//               </AccordionItem>
-//             ))}
-//           </Accordion>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
-
-
-
