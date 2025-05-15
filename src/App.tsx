@@ -6,7 +6,7 @@ import Features from "@/components/sections/Features"
 import Pricing from "@/components/sections/Pricing"
 import WhyChooseUs from "@/components/sections/WhyChooseUs"
 import FAQ from "@/components/sections/FAQ"
-// import SuccessStories from "@/components/sections/SuccessStories"
+import SuccessStories from "@/components/sections/SuccessStories"
 // import About from "@/components/sections/About"
 // import TakeControl from "@/components/sections/TakeControl"
 // import WeAccept from "@/components/sections/WeAccept"
@@ -26,7 +26,7 @@ function App() {
       <Pricing />
       <WhyChooseUs />
       <FAQ />
-      {/* <SuccessStories /> */}
+      <SuccessStories />
       {/* <About /> */}
       {/* <TakeControl /> */}
       {/* <WeAccept /> */}
