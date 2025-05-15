@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
 
             {/* App Store Buttons */}
-            <div className="flex gap-4 text-white justify-center md:justify-start py-16 hidden md:block">
+            <div className="md:flex gap-4 text-white justify-center md:justify-start py-16 hidden">
             <a href="#" className="block">
             <Button className="bg-black flex items-center justify-center py-6">
               <img
@@ -123,7 +123,7 @@ export default function Footer() {
         </div>
 
         {/* Payment Methods and Certification */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 w-[80%] gap-y-10 hidden md:block">
+        <div className="md:flex flex-col md:flex-row justify-between items-start md:items-center mb-8 w-[80%] gap-y-10 hidden">
             {/* Address */}
             <p className="text-gray-700 text-sm poppins-light">
               No16 Market Street,

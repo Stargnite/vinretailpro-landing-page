@@ -4,7 +4,7 @@ import desktop from "@/assets/images/desktop.png";
 
 const Hero = () => {
   return (
-    <main className="min-h-screen mt-16">
+    <main className="min-h-full mt-16">
       <section className="relative overflow-hidden bg-white">
         {/* Large blue-purple circle background */}
         <div className="absolute z-10 right-0 top-10 md:top-24 h-[40%] md:h-[60%] w-[90%] md:w-[47%] bg-gradient-to-br from-[#2871FA] to-[#6717CD] rounded-l-full -z-10"></div>
