@@ -84,7 +84,7 @@ export default function SuccessStories() {
               className="flex transition-transform duration-300 ease-in-out"
               style={{ transform: `translateX(-${activeIndex * slideWidth}px)` }}
             >
-              {testimonials.map((testimonial, index) => (
+              {testimonials.map((testimonial) => (
                 <div
                   key={testimonial.id}
                   className="w-[60%] md:w-1/2 flex-shrink-0 px-2 md:px-4"
