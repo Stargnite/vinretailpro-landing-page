@@ -8,7 +8,7 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs"
 import FAQ from "@/components/sections/FAQ"
 import SuccessStories from "@/components/sections/SuccessStories"
 import About from "@/components/sections/About"
-// import TakeControl from "@/components/sections/TakeControl"
+import TakeControl from "@/components/sections/TakeControl"
 // import WeAccept from "@/components/sections/WeAccept"
 // import Footer from "@/components/sections/Footer"
 // import FreeTrial from "@/components/sections/FreeTrial"
@@ -28,7 +28,7 @@ function App() {
       <FAQ />
       <SuccessStories />
       <About />
-      {/* <TakeControl /> */}
+      <TakeControl />
       {/* <WeAccept /> */}
       {/* <Footer /> */}
       {/* <FreeTrial /> */}
