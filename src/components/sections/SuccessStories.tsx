@@ -49,9 +49,9 @@ export default function SuccessStories() {
     setActiveIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1))
   }
 
-  const handleDotClick = (index: number) => {
-    setActiveIndex(index)
-  }
+  // const handleDotClick = (index: number) => {
+  //   setActiveIndex(index)
+  // }
 
   // Update slide width on window resize
   useEffect(() => {
@@ -121,7 +121,7 @@ export default function SuccessStories() {
             {testimonials.map((_, index) => (
               <button
                 key={index}
-                onClick={() => handleDotClick(index)}
+                // onClick={() => handleDotClick(index)}
                 className={`h-2.5 w-2.5 rounded-full transition-colors ${
                   index === activeIndex ? "bg-[#6717CD]" : "bg-purple-200"
                 }`}

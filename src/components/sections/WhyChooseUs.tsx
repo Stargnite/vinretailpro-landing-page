@@ -1,4 +1,3 @@
-import type React from "react"
 import icon1 from "@/assets/images/reasons-icons/icon1.png"
 import icon2 from "@/assets/images/reasons-icons/icon2.png"
 import icon3 from "@/assets/images/reasons-icons/icon3.png"
@@ -10,7 +9,7 @@ import icon8 from "@/assets/images/reasons-icons/icon8.png"
 import icon9 from "@/assets/images/reasons-icons/icon9.png"
 
 
-interface FeatureProps {
+interface FeatureCardProps {
   iconUrl: string
   title: string
   description: string

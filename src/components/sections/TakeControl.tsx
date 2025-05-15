@@ -26,7 +26,7 @@ export default function TakeControl() {
                 className="absolute inset-0 rounded-lg overflow-hidden"
                 style={{ transform: "perspective(1000px) rotateY(5deg) rotateX(5deg)" }}
               >
-                <img src={ipad} alt="VinretailPRO on tablet" fill className="object-cover" />
+                <img src={ipad} alt="VinretailPRO on tablet" className="object-cover" />
               </div>
             </div>
             <h3 className="text-xl font-semibold text-white mb-4 poppins-bold">Schedule a Demo</h3>
@@ -42,7 +42,7 @@ export default function TakeControl() {
                 className="absolute inset-0"
                 style={{ transform: "perspective(1000px) rotateY(-5deg) rotateX(5deg)" }}
               >
-                <img src={laptop} alt="VinretailPRO on laptop" fill className="object-contain" />
+                <img src={laptop} alt="VinretailPRO on laptop" className="object-contain" />
               </div>
             </div>
             <h3 className="text-xl font-semibold text-white mb-4 poppins-bold">Download the App</h3>

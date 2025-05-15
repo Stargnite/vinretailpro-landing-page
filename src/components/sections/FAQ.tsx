@@ -1,7 +1,5 @@
 import { useState } from "react"
-import { Check } from "lucide-react"
 import faqImg from "@/assets/images/faqImg.png"
-import questionMark from "@/assets/images/question-mark.png"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 interface FAQItem {
@@ -11,10 +9,6 @@ interface FAQItem {
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
-
-  const toggleQuestion = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
 
   const faqs: FAQItem[] = [
     {
