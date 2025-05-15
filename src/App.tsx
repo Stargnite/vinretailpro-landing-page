@@ -9,7 +9,7 @@ import FAQ from "@/components/sections/FAQ"
 import SuccessStories from "@/components/sections/SuccessStories"
 import About from "@/components/sections/About"
 import TakeControl from "@/components/sections/TakeControl"
-// import WeAccept from "@/components/sections/WeAccept"
+import WeAccept from "@/components/sections/WeAccept"
 // import Footer from "@/components/sections/Footer"
 // import FreeTrial from "@/components/sections/FreeTrial"
 // import FeatureNumbering from "@/components/feature-numbering"
@@ -29,7 +29,7 @@ function App() {
       <SuccessStories />
       <About />
       <TakeControl />
-      {/* <WeAccept /> */}
+      <WeAccept />
       {/* <Footer /> */}
       {/* <FreeTrial /> */}
       {/* <FeatureNumbering /> */}

@@ -4,7 +4,7 @@ import laptop from "@/assets/images/laptop.png"
 
 export default function TakeControl() {
   return (
-    <section className="w-full py-16 px-4 bg-gradient-to-r from-blue-500 to-purple-600 overflow-hidden my-16 md:my-32">
+    <section className="w-full py-16 px-4 bg-gradient-to-r from-blue-500 to-purple-600 overflow-hidden mt-16 md:mt-32">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12 md:mb-16">
